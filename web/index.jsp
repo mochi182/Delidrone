@@ -8,9 +8,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="estilo.css">
         <title>Parcial 3</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     </head>
     
     <body style="margin:0px">
+        
         <%@include file="Plantillas/header.html"%>
 
         <!--baner 1-->
@@ -52,26 +56,23 @@
                 List<Restaurante> restaurantes = prestaurante.consultarDatos();
             %>
 
-            
             <div class="contenedorFlex">
-                <% for(Restaurante restaurante: restaurantes){%>
-                    <div class="cajaBlanca">
-                        <img class="imagenComida" src="<%= restaurante.getUrl_imagen()%>" alt="BK">
-                        <h2>
-                            <%= restaurante.getNombre() %>
-                        </h2>
-                        <p>
-                            B/.<%= restaurante.getRango_precio_min()%>-<%= restaurante.getRango_precio_max()%>
-                            <br>
-                            <%= restaurante.getTiempo_entrega()%> minutos
-                            <br>
-                            <%= restaurante.getDescripcion()%>
-                        </p>
-                    </div>
-                <%}%>
-
+                    <% for(Restaurante restaurante: restaurantes){%>
+                        <div class="cajaBlanca">
+                            <img class="imagenComida" src="<%= restaurante.getUrl_imagen()%>" alt="BK">
+                            <h2>
+                                <%= restaurante.getNombre() %>
+                            </h2>
+                            <p>
+                                B/.<%= restaurante.getRango_precio_min()%>-<%= restaurante.getRango_precio_max()%>
+                                <br>
+                                <%= restaurante.getTiempo_entrega()%> minutos
+                                <br>
+                                <%= restaurante.getDescripcion()%>
+                            </p>
+                        </div>
+                    <%}%>
             </div>
-
 
             <div class="filaInput">
                 <input type="text" placeholder="Búsqueda">
@@ -81,7 +82,7 @@
             <br>
         </div>
 
-        <!--Baner 2-->
+        <!--Banner 2-->
 
         <section>
             <div class="banersito2">

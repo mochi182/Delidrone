@@ -44,7 +44,7 @@ header{
     font: bold 11px Arial;
     text-decoration: none;
     border-radius: 8px;
-    background-color: rgb(243, 166, 77);
+    background-color: rgb(226, 108, 171);
     text-shadow: 0 0 5px #906e4d;
     color: white;
     padding: 2px 6px 2px 6px;
@@ -52,7 +52,7 @@ header{
 }
 
 .boton_formulario:hover {
-    background-color:rgb(241, 181, 111);
+    background-color:rgb(233, 140, 189);
     color: white;
 }
 
@@ -289,5 +289,34 @@ footer{
     text-align: center;
 }
 
+/* ---------- Formulario ---------- */
 
+.tabla_formulario td,th{
+    padding: 20px;
+}
 
+.tabla_formulario {
+    background-color: white;
+    box-shadow: 2px 5px 10px rgb(180, 180, 180);
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tabla_formulario tr:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.cajaFormulario{
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 5px 10px rgb(180, 180, 180);
+    margin: 20px;
+}
+
+fieldset
+{
+    border: 1px solid lightgray;
+    margin: 16px;
+    border-radius: 10px;
+}

@@ -17,47 +17,46 @@
         <%@include file="Plantillas/header.html"%>
 
         <div class="fondoClaro">
-            <div class="textoInterno">
-                <h3>
-                    Formulario para añadir restaurantes
-                </h3>
-                <h1>
-                    Restaurantes afiliados:
-                </h1>
-            </div>
-
             <div class="contenedorFlex">
+                <div class="cajaFormulario">
+                    <div class="textoInterno">
+                        <h1>
+                            Añadir restaurantes
+                        </h1>
+                    </div>
+                    <label for="nombre">Nombre del restaurante:</label><br>
+                    <input name="nombre" type="text" required>
+                    <br>
+                    
+                    <fieldset>
+                        <legend>
+                            <h3>Rango de precios</h3>
+                        </legend>
+                        <label for="rango_precio_min">Mínimo:</label><br>
+                        <input  name="rango_precio_min" type="text" pattern="[A-Za-z]{2,30}" required>
+                        <br>
 
-                <div class="cajaBlanca">
-                    <br>
-                    <label class="label-datos" >Nombre del Restaurante</label>
-                    <br>
-                    <input  class="datos1" name="nombre" type="text" pattern="[A-Za-z]{2,30}"  required>
-                    <br>
-                    <br>
-                    <label class="label-datos" >Rango de precios</label>
-                    <br>
-                    <h3>Minimo
-                        <input  class="datos1" name="rango_precio_min" type="text" pattern="[A-Za-z]{2,30}"  required></h3>
-                    <h3>Maximo
-                        <input  class="datos1" name="rango_precio_max" type="text" pattern="[A-Za-z]{2,30}"  required></h3>
+                        <label for="rango_precio_max">Máximo:</label><br>
+                        <input name="rango_precio_max" type="text" required>
+                        <br>
+                        <br>
+                    </fieldset>
 
-                    <label class="label-datos" >Tiempo de espera</label>
-                    <br>
-                    <input  class="datos1" name="tiempo_de_entrega" type="text" pattern="[A-Za-z]{2,30}"  required>
-                    <br>
-                    <br>
-                    <label class="label-datos" >Descripcion</label>
-                    <br>
-                    <input  class="datos1" name="producto" type="text" pattern="[A-Za-z]{2,30}"  required>
+                    <label for="tiempo_de_entrega" >Tiempo de espera:</label><br>
+                    <input name="tiempo_de_entrega" type="number" required>
                     <br>
                     <br>
-                    <label class="label-datos" >Imagen de Restaurante(url)</label>
+                    
+                    <label name="descripcion" >Descripción:</label><br>
+                    <input name="descripcion" type="text" required>
                     <br>
-                    <input class="datos1" type="url" name="archivosubido"   required> </p>
                     <br>
-
+                    
+                    <label name="url_imagen" >URL de imágen:</label><br>
+                    <input name="url_imagen" type="url" required>
                     <br>
+                    <br>
+                    
 
                 </div>
             </div>
@@ -91,13 +90,13 @@
                 %>
             </h2>
             
-            <table>
+            <table class="tabla_formulario">
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
-                    <th>Precio mínimo</th>
-                    <th>Precio máximo</th>
-                    <th>Tiempo de entrega</th>
+                    <th>Precio mínimo (B/.)</th>
+                    <th>Precio máximo (B/.)</th>
+                    <th>Tiempo de entrega (minutos)</th>
                     <th>Descripción</th>
                     <th>URL de imágen</th>
                 </tr>
