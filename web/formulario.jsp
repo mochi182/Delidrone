@@ -24,50 +24,63 @@
                             Añadir restaurantes
                         </h1>
                     </div>
-                    <label for="nombre">Nombre del restaurante:</label><br>
-                    <input name="nombre" type="text" required>
-                    <br>
                     
-                    <fieldset>
-                        <legend>
-                            <h3>Rango de precios</h3>
-                        </legend>
-                        <label for="rango_precio_min">Mínimo:</label><br>
-                        <input  name="rango_precio_min" type="text" pattern="[A-Za-z]{2,30}" required>
+                    <form method="POST" action="formulario.jsp">
+                        <label for="nombre">Nombre del restaurante:</label><br>
+                        <input name="nombre" type="text" required>
                         <br>
 
-                        <label for="rango_precio_max">Máximo:</label><br>
-                        <input name="rango_precio_max" type="text" required>
+                        <fieldset>
+                            <legend>
+                                <h3>Rango de precios</h3>
+                            </legend>
+                            <label for="rango_precio_min">Mínimo:</label><br>
+                            <input  name="rango_precio_min" type="number">
+                            <br>
+
+                            <label for="rango_precio_max">Máximo:</label><br>
+                            <input name="rango_precio_max" type="number" step="0.01">
+                            <br>
+                            <br>
+                        </fieldset>
+
+                        <label for="tiempo_de_entrega" >Tiempo de espera:</label><br>
+                        <input name="tiempo_de_entrega" type="number">
                         <br>
                         <br>
-                    </fieldset>
 
-                    <label for="tiempo_de_entrega" >Tiempo de espera:</label><br>
-                    <input name="tiempo_de_entrega" type="number" required>
-                    <br>
-                    <br>
-                    
-                    <label name="descripcion" >Descripción:</label><br>
-                    <input name="descripcion" type="text" required>
-                    <br>
-                    <br>
-                    
-                    <label name="url_imagen" >URL de imágen:</label><br>
-                    <input name="url_imagen" type="url" required>
-                    <br>
-                    <br>
-                    
+                        <label name="descripcion" >Descripción:</label><br>
+                        <input name="descripcion" type="text" required>
+                        <br>
+                        <br>
 
+                        <label name="url_imagen" >URL de imágen:</label><br>
+                        <input name="url_imagen" type="url" required>
+                        <br>
+                        <br>
+                        
+                    <center>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar todo">
+                    </center>
+                    </form>
+                    
                 </div>
             </div>
 
             <%
-                String nombre = "Burger King";
-                float rango_precio_min = 15.30f;
-                float rango_precio_max = 30.00f;
-                int tiempo_entrega = 15;
-                String descripcion = "Hamburguesas";
-                String url_imagen = "https://cnet1.cbsistatic.com/img/Uz95WDjAeA3dxhDOCbNY41PiYsg=/940x0/2019/04/01/1b98aff5-886e-4020-b38c-8816830b7c11/burgerking-impossiblefoods.png";
+                String rango_precio_max_string = "16.00";
+                Float rango_precio_max = new Float(0);
+                rango_precio_max = Float.parseFloat(rango_precio_max_string);
+                
+                float rango_precio_min = 0f;
+                int tiempo_entrega = 0;
+                String nombre = request.getParameter("nombre");
+                String descripcion = request.getParameter("descripcion");
+                String url_imagen = request.getParameter("url_imagen");
+                
+                
+                
                 Restaurante restaurante = new Restaurante();
                 ProcesosRestaurante prestaurante = new ProcesosRestaurante();
                 restaurante.setNombre(nombre);
@@ -76,6 +89,7 @@
                 restaurante.setTiempo_entrega(tiempo_entrega);
                 restaurante.setDescripcion(descripcion);
                 restaurante.setUrl_imagen(url_imagen);
+                
                 int isSaved = prestaurante.guardarRestaurante(restaurante);
                 List<Restaurante> restaurantes = prestaurante.consultarDatos();
             %>
