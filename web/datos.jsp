@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcial2</title>
+    <title>Parcial 3</title>
     <link rel="stylesheet" href="parcial2.css">
     <link  rel="icon"   href="https://image.flaticon.com/icons/svg/1377/1377917.svg" type="image/png" />
 </head>

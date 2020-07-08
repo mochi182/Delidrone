@@ -8,8 +8,11 @@ package Procesos;
 import Entidades.Restaurante;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -45,6 +48,32 @@ public class ProcesosRestaurante {
             System.out.println("Error al insertar en base de datos: " + w);
         }
         return 0;
+    }
+    
+    public List<Restaurante>  consultarDatos(){
+        List<Restaurante> restaurantes = new ArrayList<Restaurante>();
+        try{
+            Statement stmt = conn.createStatement();
+            String query = "SELECT * FROM restaurante";
+            ResultSet resultado = stmt.executeQuery(query);
+            while(resultado.next()){
+                Restaurante restaurante = new Restaurante();
+                restaurante.setId(resultado.getInt("id"));
+                restaurante.setNombre(resultado.getString("nombre"));
+                restaurante.setDescripcion(resultado.getString("descripcion"));
+                restaurante.setUrl_imagen(resultado.getString("url_imagen"));
+                restaurante.setRango_precio_min(resultado.getFloat("rango_precio_min"));
+                restaurante.setRango_precio_max(resultado.getFloat("rango_precio_max"));
+                restaurante.setTiempo_entrega(resultado.getInt("tiempo_de_entrega"));
+                restaurantes.add(restaurante);
+            }
+            resultado.close();
+            stmt.close();
+            conn.close();
+        } catch(Exception e){
+            System.out.println("Error: " + e);
+        }
+        return restaurantes;
     }
            
 }

@@ -4,13 +4,17 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
 /* ----- Header ----- */
+
 
 .headerFlex{
     display: flex;
     padding: 10px 20px 10px 20px;
     align-content: space-around;
+    align-items: center;
 }
+
 
 header{
     margin: 0px;
@@ -18,18 +22,38 @@ header{
 }
 
 .barraPrincipal{
-    flex-basis: 90%;
-    color: blanchedalmond;
-
+    flex-basis: 82%;
 }
 
-
-#tituloHeader{
-    font-size: 40px;
+#link_inicio{
+    color: blanchedalmond;
+    text-decoration: none;
 }
 
 .elMenu{
+    flex-basis: 8%;
     color: blanchedalmond;
+}
+
+.boton_formulario{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 11px Arial;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: rgb(243, 166, 77);
+    text-shadow: 0 0 5px #906e4d;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    margin-left: 10px;
+}
+
+.boton_formulario:hover {
+    background-color:rgb(241, 181, 111);
+    color: white;
 }
 
 /* ----- banner 1 ----- */
@@ -92,9 +116,10 @@ header{
 
 .contenedorFlex{
     display: flex;
-    width: 100%;
+    width: 85%;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .cajaBlanca{
@@ -113,6 +138,10 @@ header{
 }
 
 .fondoClaro{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
     margin: 0px;
     background-image: linear-gradient(90deg, rgba(255,255,255,0.9295635490524334) 0%, rgba(255,255,255,0.9491713921896884) 100%), url("https://www.thisislandlife.com/wp-content/uploads/2014/12/westfield-sydney-chat-thai-hero-3.jpg");
@@ -123,22 +152,15 @@ header{
 }
 
 .filaInput{
+    width: 40%;
     display:flex;
     justify-content: center;
-}
-.datos1{
-    height:2em;
-    width: 40%;
-    border: 1px solid grey;
-    border-radius: 5px;
-    align-items: center;
-    align-content: center;
-    vertical-align: middle;
 }
 
 input{
     height:3em;
-    width: 30%;
+    width: 65%;
+    min-width: 300px;
     border: 1px solid grey;
     border-radius: 5px;
     align-items: center;
@@ -185,9 +207,9 @@ footer{
 
 .divisionFooter1{
     width: 35%;
-    text-align: justify;
+    text-align: justify; 
     padding-left: 10%;
-    padding-right: 5%;
+    padding-right: 5%; 
 }
 
 .divisionFooter2{
@@ -200,7 +222,7 @@ footer{
     padding-left: 5%;
     width: 10%;
     text-align:justify;
-    padding-right: 5%;
+    padding-right: 5%; 
 }
 
 .divisionFooter4{
@@ -219,7 +241,7 @@ footer{
 
 .divisionFooter5{
     width: 100%;
-    text-align:center;
+    text-align:center; 
 }
 
 .h5{
@@ -232,14 +254,14 @@ footer{
 }
 .h3{
     color: #b4b4ba;
-
+    
 }
 .red{
-    color: #b4b4ba;
+    color: #b4b4ba; 
 }
 .esp{
     width: 90%;
-    color: #b4b4ba;
+    color: #b4b4ba; 
     border-bottom:2px solid grey;
     padding-bottom: 15px;
     padding-right: 57%;
@@ -247,7 +269,7 @@ footer{
 }
 
 .espe{
-    color: #b4b4ba;
+    color: #b4b4ba; 
     border-bottom:2px solid grey;
     padding-bottom: 15px;
     padding-right: 75%;
@@ -255,29 +277,17 @@ footer{
 }
 
 .espc{
-    color:#b4b4ba;
+    color:#b4b4ba; 
     border-bottom:2px solid grey;
     padding-bottom: 15px;
     padding-right: 80%;
     width: 100%;
-
+  
 }
 
 .p{
     text-align: center;
 }
-h1{
-    font-family: Verdana;
-    font-size: small;
-
-}
-h3{
-    font-family: Verdana;
-    font-size: small;
-
-}
-
-
 
 
 
