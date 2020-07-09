@@ -201,9 +201,9 @@
                     </div>
                     <br>
                     <div class="filaDeFotos">
-                        <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
+                        <img src="https://i.imgur.com/JFoSaDW.jpg" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco P�rez - CEO
+                            Ernesto Solís - CEO
                         </h3>
                     </div>
                 </div>
