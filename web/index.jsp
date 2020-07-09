@@ -34,7 +34,7 @@
                 <br>
 
                 <h2 class= "banertxt">
-                    Somos una empresa comprometida con tu bienestar y satisfacción. Te prometemos un delivery rápido y eficiente, del cuál solo podrás tener buenas opiniones.
+                    Somos una empresa comprometida con tu bienestar y satisfacciï¿½n. Te prometemos un delivery rï¿½pido y eficiente, del cuï¿½l solo podrï¿½s tener buenas opiniones.
                 </h2>
             </div>
         </section>
@@ -44,10 +44,10 @@
         <div class="fondoClaro">
             <div class="textoInterno">
                 <h3>
-                    Ofrecemos gran variedad de opciones, de los restaurantes más destacados...
+                    Ofrecemos gran variedad de opciones, de los restaurantes mï¿½s destacados...
                 </h3>
                 <h1>
-                    Añadir restaurantes afiliados:
+                    Aï¿½adir restaurantes afiliados:
                 </h1>
             </div>
 
@@ -75,9 +75,9 @@
             </div>
 
             <div class="filaInput">
-                <input type="text" placeholder="Búsqueda">
+                <input type="text" placeholder="Bï¿½squeda">
                 <img src="https://icongr.am/clarity/search.svg" alt="Busqueda">
-                <h3>Ver más</h3>
+                <h3>Ver mï¿½s</h3>
             </div>
             <br>
         </div>
@@ -99,7 +99,7 @@
                 <br>
 
                 <h2 class= "banertxt2">
-                    Con los más deliciosos restaurantes afiliados a nuestro negocio y un servicio de primera línea, estamos seguros que de ahora en adelante querrás recibir tus alimientos volando!
+                    Con los mï¿½s deliciosos restaurantes afiliados a nuestro negocio y un servicio de primera lï¿½nea, estamos seguros que de ahora en adelante querrï¿½s recibir tus alimientos volando!
                 </h2>
             </div>
         </section>
@@ -121,14 +121,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia única, es el futuro. Esperamos crecer mucho más los próximos años.
+                            Este servicio es una experiencia ï¿½nica, es el futuro. Esperamos crecer mucho mï¿½s los prï¿½ximos aï¿½os.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
                         <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco Pérez - CEO
+                            Francisco Pï¿½rez - CEO
                         </h3>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Ordenar comida a domicilio nunca había sido tan sencillo y personalizado. Por eso nos adoran.
+                            Ordenar comida a domicilio nunca habï¿½a sido tan sencillo y personalizado. Por eso nos adoran.
                         </i>
                     </div>
                     <br>
@@ -151,14 +151,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Nuestro servicio ha sido un éxito en esta cuarentena, debido a nuestro compromiso por la calidad.
+                            Nuestro servicio ha sido un ï¿½xito en esta cuarentena, debido a nuestro compromiso por la calidad.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
-                        <img src="https://i.imgur.com/7QOIo2I.jpg" alt="foto3" class="fotoPerfil">
+                        <img src="https://i.imgur.com/8nzE9wL.jpg" alt="foto3" class="fotoPerfil">
                         <h3>
-                            José Sieiro - CEO
+                            MelitÃ³n RodrÃ­guez - CEO
                         </h3>
                     </div>
                 </div>
@@ -166,14 +166,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia única, es el futuro. Esperamos crecer mucho más los próximos años.
+                            Este servicio es una experiencia ï¿½nica, es el futuro. Esperamos crecer mucho mï¿½s los prï¿½ximos aï¿½os.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
                         <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco Pérez - CEO
+                            Francisco Pï¿½rez - CEO
                         </h3>
                     </div>
                 </div>
@@ -181,14 +181,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia única, es el futuro. Esperamos crecer mucho más los próximos años.
+                            Este servicio es una experiencia ï¿½nica, es el futuro. Esperamos crecer mucho mï¿½s los prï¿½ximos aï¿½os.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
                         <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco Pérez - CEO
+                            Francisco Pï¿½rez - CEO
                         </h3>
                     </div>
                 </div>
@@ -196,14 +196,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia única, es el futuro. Esperamos crecer mucho más los próximos años.
+                            Este servicio es una experiencia ï¿½nica, es el futuro. Esperamos crecer mucho mï¿½s los prï¿½ximos aï¿½os.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
                         <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco Pérez - CEO
+                            Francisco Pï¿½rez - CEO
                         </h3>
                     </div>
                 </div>
