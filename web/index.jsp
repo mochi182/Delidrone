@@ -181,14 +181,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia �nica, es el futuro. Esperamos crecer mucho m�s los pr�ximos a�os.
+                            Siempre pensando en lo mejor para el consumidor,la orden llega rápido y caliente, 0 tranque.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
-                        <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
+                        <img src="https://i.imgur.com/kFKp0Fl.jpg" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco P�rez - CEO
+                            Juan Huerta - CEO
                         </h3>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia �nica, es el futuro. Esperamos crecer mucho m�s los pr�ximos a�os.
+                            Este servicio esta hecho para todos. Compartelo con todos/as tus colegas!
                         </i>
                     </div>
                     <br>
