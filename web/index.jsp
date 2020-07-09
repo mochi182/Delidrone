@@ -166,14 +166,14 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio es una experiencia �nica, es el futuro. Esperamos crecer mucho m�s los pr�ximos a�os.
+                            Dale al cliente siempre más de lo que espera, esa es nuestra meta.
                         </i>
                     </div>
                     <br>
                     <div class="filaDeFotos">
-                        <img src="https://i.imgur.com/YZRHXvQ.png" alt="foto1" class="fotoPerfil">
+                        <img src="https://i.imgur.com/AnIZn9K.jpg" alt="foto1" class="fotoPerfil">
                         <h3>
-                            Francisco P�rez - CEO
+                            Afredo Castillo - CEO
                         </h3>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                 <div class="cajaBlanca">
                     <div class="citaDeTexto">
                         <i>
-                            Este servicio esta hecho para todos. Compartelo con todos/as tus colegas!
+                            Nuestro servicio esta hecho para todos. Compartelo con todos/as tus colegas!
                         </i>
                     </div>
                     <br>
