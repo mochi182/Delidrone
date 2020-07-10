@@ -75,7 +75,7 @@
             </div>
 
             <div class="filaInput">
-                <input type="text" placeholder="Bï¿½squeda">
+                <input type="text" placeholder="Búsqueda">
                 <img src="https://icongr.am/clarity/search.svg" alt="Busqueda">
                 <h3>Ver más</h3>
             </div>
